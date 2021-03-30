@@ -1,0 +1,29 @@
+.notFound{
+align-items: center;
+margin-left: 470px;
+margin-top: 130px;
+display: inline-block;
+padding: 10px 5px 5px 5px;
+
+}
+
+@media(max-width: 700px){
+    .notFound{
+        align-items: center;
+        margin-left: 470px;
+        margin-top: 130px;
+        display: inline-block;
+        padding: 10px 5px 5px 5px;
+        
+        }
+}
+@media(max-width: 450px){
+    .notFound{
+        align-items: center;
+        margin-left: 110px;
+        margin-top: 130px;
+        display: inline-block;
+        padding: 10px 5px 5px 5px;
+        
+        }
+}

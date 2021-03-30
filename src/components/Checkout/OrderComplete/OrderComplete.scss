@@ -1,0 +1,45 @@
+
+.containerProperties{
+    background-color: rgb(246, 242, 242);
+    padding: 30px;
+    border: 1px solid rgb(231, 230, 230);
+}
+.textInfo{
+    line-height: 1.59;
+    font-weight: normal;
+}
+.orderno{
+    color: rgb(45, 223, 223);
+    font-size: 21px;
+    font-weight: bold;
+}
+.email{
+    color: rgb(45, 223, 223);
+    font-size: 15px;
+    font-weight: 600;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-default {
+    width: 150px;
+    background: rgb(14, 12, 12);
+    color: rgb(255, 255, 255);
+    outline: none;
+    font-size: 15px;
+    text-transform: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: transform 1.9s ease;
+    transform: scale(1);
+
+
+    &:hover{
+        background-color: rgb(19, 15, 15);
+        color: white;
+        transform: scale(1.08);
+
+    }
+}

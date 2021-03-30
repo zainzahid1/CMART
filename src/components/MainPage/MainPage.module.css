@@ -1,0 +1,16 @@
+.companyImage{
+  height: 100%;
+  margin-top: 50px;
+  margin-left: 40%;
+}
+
+@media (max-width: 590px) {
+  .companyImage {
+    margin-left: 30%;
+  }
+}
+@media (max-width: 400px) {
+  .companyImage {
+    margin-left: 23%;
+  }
+}

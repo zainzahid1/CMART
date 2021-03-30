@@ -1,0 +1,88 @@
+.Toolbar {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.Toolbar nav {
+    height: 100%;
+
+}
+
+.Logo {
+    height: 50%;
+    cursor: pointer;
+}
+
+:root{
+    --main: #ff6e68;
+    --lightBlack: #2c2c2c;
+
+}
+.carticon{
+    color: var(--main);
+    font-size: 21px;
+}
+
+.basket {
+    position: relative;
+    margin-right: 15px;
+}
+.basket span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	right: 72px;
+	top: -10px;
+	width: 23px;
+	height: 23px;
+	background: var(--lightBlack);
+	border-radius: 50%;
+	color: var(--white);
+	font-size: 12px;
+}
+.baskett {
+    position: relative;
+    margin-right: 15px;
+}
+.baskett span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	right: 72px;
+	top: -10px;
+	width: 23px;
+	height: 23px;
+	background: rgb(11, 167, 11);
+	border-radius: 50%;
+	color: var(--white);
+	font-size: 12px;
+}
+
+
+
+
+
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+
+    }
+}
+@media (max-width: 499px) {
+    .Logo {
+        display: none;
+    }
+}

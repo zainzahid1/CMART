@@ -1,0 +1,160 @@
+
+html, body {
+  height: 100% !important;
+  margin: 0;
+ 
+}
+
+.form-control, .col-form-label, .custom-select, header, footer {
+  font-size: 1.4rem !important;
+  background-color: rgb(245, 245, 245);
+}
+label{
+  font-size: 1.4rem !important;
+}
+
+
+.button {
+  padding: .6rem 2rem;
+  line-height: 1.5;
+  border-radius: .4rem;
+  color: #fff;
+  background-color: #1b8bec;
+  border-color: #6c757d;
+  text-decoration: none;
+  border: 1px solid rgb(24, 24, 80);
+}
+.pagecenter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.error {
+  color: red;
+  font-size: 0.8rem;
+}
+.right {
+  text-align: right;
+}
+.link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  width: 100%;
+  color: #1b8bec;
+}
+.link-button:hover,
+.link-button:focus {
+  text-decoration: none;
+  
+}
+
+
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.customers td, .customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+
+.customers tr:hover {background-color: #ddd;}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f5d670;
+  color: black;
+  font-size: 16px;
+}
+
+
+.dropdown-menu{
+  background-color: #f1f1e4;
+  border: 1px solid #68a3da;
+}
+.divider{
+  border: 1px solid #b62c02;
+}
+.li{
+  padding-left: 7px;
+}
+
+td a.edit {
+  color: #3a9b47;
+}
+td a.delete {
+  color: #E34724;
+}
+td a {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 5px;
+  min-width: 24px;
+}  
+.actions{
+  opacity: 0;
+}
+tr:hover .actions{
+  opacity: 1;
+}
+.avatar{
+  margin-right: 15px;
+}
+
+.card{
+  height: 350px;
+  width: 300px;
+  //border: 0.5px solid rgb(236, 228, 228);
+  border: 0.5px solid rgb(255, 255, 255);
+}
+
+.card-text{
+  font-size: 13px;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+
+}
+.card-title{
+  margin-top: 9px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.overflow{
+  overflow: hidden;
+}
+
+
+.card-img-top{
+  width: 185px;
+  margin-top: 20px;
+ margin-bottom: 10px;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+  height: 180px;
+  transform: scale(1);
+  transition: transform 1.9s ease;
+ 
+}
+
+.card-img-top:hover{
+  transform: scale(1.1);
+}
+
+.toast{
+  font-size: 21px;
+}
